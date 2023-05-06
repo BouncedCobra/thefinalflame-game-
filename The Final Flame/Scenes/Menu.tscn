@@ -334,47 +334,49 @@ text = "Infinito"
 position = Vector2( 768, 192 )
 scale = Vector2( 8.05, 5.41667 )
 frames = SubResource( 9 )
-frame = 4
+frame = 6
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="."]
 position = Vector2( 377.875, 608.25 )
 scale = Vector2( 6.2125, 4.02084 )
 frames = SubResource( 9 )
-frame = 3
+frame = 5
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="."]
 position = Vector2( 1288, 776 )
 scale = Vector2( 8.21251, 5.02083 )
 frames = SubResource( 9 )
-frame = 2
+frame = 4
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
 position = Vector2( 632, 744 )
 scale = Vector2( 12.2333, 8.16667 )
 frames = SubResource( 16 )
+frame = 4
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="."]
 position = Vector2( 632, 744 )
 scale = Vector2( 12.2333, 8.16667 )
 frames = SubResource( 16 )
+frame = 4
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="."]
 position = Vector2( 1136, 608 )
 scale = Vector2( 7.71667, 5.08333 )
 frames = SubResource( 16 )
-frame = 5
+frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="."]
 position = Vector2( 768, 328 )
 scale = Vector2( 9.6, 5.58333 )
 frames = SubResource( 25 )
-frame = 7
+frame = 1
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="."]
@@ -382,7 +384,6 @@ position = Vector2( 640, 424 )
 rotation = -1.5708
 scale = Vector2( 7.28715, 5.58333 )
 frames = SubResource( 25 )
-frame = 6
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="."]
@@ -390,7 +391,6 @@ position = Vector2( 896, 416 )
 rotation = 1.5708
 scale = Vector2( 7.28715, 5.58333 )
 frames = SubResource( 25 )
-frame = 6
 playing = true
 
 [node name="Extemo" type="Button" parent="."]
@@ -409,7 +409,7 @@ text = "Tortura"
 position = Vector2( 32, -54 )
 scale = Vector2( 4.5, 4.5 )
 frames = SubResource( 34 )
-frame = 1
+frame = 3
 playing = true
 
 [node name="Fondo" type="AudioStreamPlayer" parent="."]
@@ -540,6 +540,7 @@ position = Vector2( -73, 31 )
 rotation = -1.5708
 scale = Vector2( 4.60071, 4.60071 )
 frames = SubResource( 62 )
+frame = 1
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="EXNUEVO"]
@@ -547,6 +548,7 @@ position = Vector2( 189, 29 )
 rotation = 1.5708
 scale = Vector2( 4.60071, 4.60071 )
 frames = SubResource( 62 )
+frame = 1
 playing = true
 
 [connection signal="pressed" from="Normal" to="." method="_on_Button_pressed"]

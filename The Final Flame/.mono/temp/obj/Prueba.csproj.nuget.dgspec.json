@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My\\Escuela\\Semestre 5\\Desarrollo de videojuegos\\pruba - copia\\Prueba.csproj": {}
+    "D:\\My\\Escuela\\portafolio\\The Final Flame\\Prueba.csproj": {}
   },
   "projects": {
-    "D:\\My\\Escuela\\Semestre 5\\Desarrollo de videojuegos\\pruba - copia\\Prueba.csproj": {
+    "D:\\My\\Escuela\\portafolio\\The Final Flame\\Prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My\\Escuela\\Semestre 5\\Desarrollo de videojuegos\\pruba - copia\\Prueba.csproj",
+        "projectUniqueName": "D:\\My\\Escuela\\portafolio\\The Final Flame\\Prueba.csproj",
         "projectName": "Prueba",
-        "projectPath": "D:\\My\\Escuela\\Semestre 5\\Desarrollo de videojuegos\\pruba - copia\\Prueba.csproj",
+        "projectPath": "D:\\My\\Escuela\\portafolio\\The Final Flame\\Prueba.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\My\\Escuela\\Semestre 5\\Desarrollo de videojuegos\\pruba - copia\\.mono\\temp\\obj\\",
+        "outputPath": "D:\\My\\Escuela\\portafolio\\The Final Flame\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -16,3 +16,12 @@ D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\
 D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
 D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\Debug\Prueba.dll
 D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\Debug\Prueba.pdb
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\bin\Debug\Prueba.dll
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\bin\Debug\Prueba.pdb
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.csproj.AssemblyReference.cache
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.AssemblyInfoInputs.cache
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.AssemblyInfo.cs
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.dll
+D:\My\Escuela\portafolio\The Final Flame\.mono\temp\obj\Debug\Prueba.pdb
