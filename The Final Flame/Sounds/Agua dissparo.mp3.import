@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Agua dissparo.mp3-856d0d360ca1fe5e6a6627dc71d74b35.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Agua dissparo.mp3"
+dest_files=[ "res://.import/Agua dissparo.mp3-856d0d360ca1fe5e6a6627dc71d74b35.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

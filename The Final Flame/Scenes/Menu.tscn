@@ -1,0 +1,558 @@
+[gd_scene load_steps=78 format=2]
+
+[ext_resource path="res://Scrips/Menu.gd" type="Script" id=1]
+[ext_resource path="res://Elementos/free-cartoon-forest-game-backgrounds/PNG/Cartoon_Forest_BG_03/Cartoon_Forest_BG_03.png" type="Texture" id=2]
+[ext_resource path="res://Elementos/fire_fx_v1.0/png/white/loops/burning_loop_2.png" type="Texture" id=3]
+[ext_resource path="res://Elementos/fire_fx_v1.0/png/white/loops/burning_loop_3.png" type="Texture" id=4]
+[ext_resource path="res://Elementos/fire_fx_v1.0/png/blue/loops/burning_loop_2.png" type="Texture" id=5]
+[ext_resource path="res://Elementos/fire_fx_v1.0/png/purple/loops/burning_loop_2.png" type="Texture" id=6]
+[ext_resource path="res://Sounds/fondo menu.mp3" type="AudioStream" id=7]
+[ext_resource path="res://Elementos/minecraft/Minecraft.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://Elementos/Papiro.jpg" type="Texture" id=9]
+[ext_resource path="res://Elementos/Teclas/shift-keyboard-key.png" type="Texture" id=10]
+[ext_resource path="res://Elementos/Teclas/d.png" type="Texture" id=11]
+[ext_resource path="res://Elementos/Teclas/a.png" type="Texture" id=12]
+[ext_resource path="res://Elementos/Teclas/left-click.png" type="Texture" id=13]
+[ext_resource path="res://Elementos/sonido.png" type="Texture" id=14]
+[ext_resource path="res://Elementos/fire_fx_v1.0/png/green/loops/burning_loop_1.png" type="Texture" id=15]
+
+[sub_resource type="StyleBoxFlat" id=38]
+bg_color = Color( 0.729412, 0.811765, 0.803922, 1 )
+
+[sub_resource type="StyleBoxFlat" id=35]
+bg_color = Color( 0.729412, 0.811765, 0.803922, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 6
+border_color = Color( 0.270588, 0.270588, 0.270588, 1 )
+
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 0.0509804, 0.898039, 0.898039, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 6
+border_color = Color( 0.333333, 0.380392, 1, 1 )
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 3 )
+region = Rect2( 20, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 3 )
+region = Rect2( 40, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 3 )
+region = Rect2( 60, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 3 )
+region = Rect2( 80, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 100, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 3 )
+region = Rect2( 120, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 3 )
+region = Rect2( 140, 0, 20, 24 )
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 15, 24 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 4 )
+region = Rect2( 15, 0, 15, 24 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 4 )
+region = Rect2( 30, 0, 15, 24 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 4 )
+region = Rect2( 45, 0, 15, 24 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 4 )
+region = Rect2( 60, 0, 15, 24 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 0, 15, 24 )
+
+[sub_resource type="SpriteFrames" id=16]
+animations = [ {
+"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 5 )
+region = Rect2( 20, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 5 )
+region = Rect2( 40, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 5 )
+region = Rect2( 60, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 5 )
+region = Rect2( 80, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 5 )
+region = Rect2( 100, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 5 )
+region = Rect2( 120, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 5 )
+region = Rect2( 140, 0, 20, 24 )
+
+[sub_resource type="SpriteFrames" id=25]
+animations = [ {
+"frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0.0784314, 0, 0.145098, 1 )
+
+[sub_resource type="StyleBoxFlat" id=37]
+bg_color = Color( 0.694118, 0.113725, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 6
+border_color = Color( 0.341176, 0.0235294, 0.619608, 1 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 6 )
+region = Rect2( 20, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 6 )
+region = Rect2( 40, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 6 )
+region = Rect2( 60, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 6 )
+region = Rect2( 80, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 6 )
+region = Rect2( 100, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 6 )
+region = Rect2( 120, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 6 )
+region = Rect2( 140, 0, 20, 24 )
+
+[sub_resource type="SpriteFrames" id=34]
+animations = [ {
+"frames": [ SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="DynamicFont" id=41]
+size = 26
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=42]
+size = 18
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
+
+[sub_resource type="StyleBoxFlat" id=48]
+bg_color = Color( 0, 0, 0, 0 )
+
+[sub_resource type="StyleBoxFlat" id=43]
+bg_color = Color( 1, 1, 1, 0 )
+
+[sub_resource type="StyleBoxFlat" id=44]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=49]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="DynamicFont" id=45]
+size = 18
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=46]
+size = 18
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=47]
+size = 18
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
+
+[sub_resource type="StyleBoxFlat" id=50]
+bg_color = Color( 0.0509804, 0.898039, 0.898039, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=51]
+bg_color = Color( 1, 0.482353, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=52]
+bg_color = Color( 0.0392157, 0.301961, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=53]
+bg_color = Color( 0.682353, 0.909804, 0.403922, 1 )
+
+[sub_resource type="AtlasTexture" id=54]
+atlas = ExtResource( 15 )
+region = Rect2( 0, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=55]
+atlas = ExtResource( 15 )
+region = Rect2( 24, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=56]
+atlas = ExtResource( 15 )
+region = Rect2( 48, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=57]
+atlas = ExtResource( 15 )
+region = Rect2( 72, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=58]
+atlas = ExtResource( 15 )
+region = Rect2( 96, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=59]
+atlas = ExtResource( 15 )
+region = Rect2( 120, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=60]
+atlas = ExtResource( 15 )
+region = Rect2( 144, 0, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=61]
+atlas = ExtResource( 15 )
+region = Rect2( 168, 0, 24, 32 )
+
+[sub_resource type="SpriteFrames" id=62]
+animations = [ {
+"frames": [ SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ), SubResource( 61 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="CartoonForestBg03" type="Sprite" parent="."]
+position = Vector2( 768, 434.5 )
+scale = Vector2( 0.8, 0.80463 )
+texture = ExtResource( 2 )
+
+[node name="Normal" type="Button" parent="."]
+visible = false
+margin_left = 704.0
+margin_top = 256.0
+margin_right = 832.0
+margin_bottom = 320.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_styles/hover = SubResource( 38 )
+custom_styles/normal = SubResource( 35 )
+text = "Normal"
+
+[node name="Infinito" type="Button" parent="."]
+visible = false
+margin_left = 704.0
+margin_top = 392.0
+margin_right = 832.0
+margin_bottom = 456.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0.0509804, 0.898039, 0.898039, 1 )
+custom_styles/hover = SubResource( 39 )
+custom_styles/normal = SubResource( 36 )
+text = "Infinito"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 768, 192 )
+scale = Vector2( 8.05, 5.41667 )
+frames = SubResource( 9 )
+frame = 4
+playing = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="."]
+position = Vector2( 377.875, 608.25 )
+scale = Vector2( 6.2125, 4.02084 )
+frames = SubResource( 9 )
+frame = 3
+playing = true
+
+[node name="AnimatedSprite4" type="AnimatedSprite" parent="."]
+position = Vector2( 1288, 776 )
+scale = Vector2( 8.21251, 5.02083 )
+frames = SubResource( 9 )
+frame = 2
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
+position = Vector2( 632, 744 )
+scale = Vector2( 12.2333, 8.16667 )
+frames = SubResource( 16 )
+playing = true
+
+[node name="AnimatedSprite5" type="AnimatedSprite" parent="."]
+position = Vector2( 632, 744 )
+scale = Vector2( 12.2333, 8.16667 )
+frames = SubResource( 16 )
+playing = true
+
+[node name="AnimatedSprite6" type="AnimatedSprite" parent="."]
+position = Vector2( 1136, 608 )
+scale = Vector2( 7.71667, 5.08333 )
+frames = SubResource( 16 )
+frame = 5
+playing = true
+
+[node name="AnimatedSprite7" type="AnimatedSprite" parent="."]
+position = Vector2( 768, 328 )
+scale = Vector2( 9.6, 5.58333 )
+frames = SubResource( 25 )
+frame = 7
+playing = true
+
+[node name="AnimatedSprite8" type="AnimatedSprite" parent="."]
+position = Vector2( 640, 424 )
+rotation = -1.5708
+scale = Vector2( 7.28715, 5.58333 )
+frames = SubResource( 25 )
+frame = 6
+playing = true
+
+[node name="AnimatedSprite9" type="AnimatedSprite" parent="."]
+position = Vector2( 896, 416 )
+rotation = 1.5708
+scale = Vector2( 7.28715, 5.58333 )
+frames = SubResource( 25 )
+frame = 6
+playing = true
+
+[node name="Extemo" type="Button" parent="."]
+visible = false
+margin_left = 742.0
+margin_top = 663.0
+margin_right = 807.0
+margin_bottom = 687.0
+custom_colors/font_color = Color( 0.0784314, 0, 0.145098, 1 )
+custom_colors/font_color_hover = Color( 0.694118, 0.113725, 1, 1 )
+custom_styles/hover = SubResource( 40 )
+custom_styles/normal = SubResource( 37 )
+text = "Tortura"
+
+[node name="AnimatedSprite10" type="AnimatedSprite" parent="Extemo"]
+position = Vector2( 32, -54 )
+scale = Vector2( 4.5, 4.5 )
+frames = SubResource( 34 )
+frame = 1
+playing = true
+
+[node name="Fondo" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+autoplay = true
+
+[node name="Papiro" type="Sprite" parent="."]
+position = Vector2( 777.625, 432.25 )
+scale = Vector2( 1.16696, 1.31064 )
+texture = ExtResource( 9 )
+
+[node name="Label" type="Label" parent="Papiro"]
+margin_left = -360.0
+margin_top = -200.0
+margin_right = 359.0
+margin_bottom = 200.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 41 )
+text = "EL OBJETIVO DE ESTE JUEGO ES PROVOCAR UNA SENSACION DE ESTRES Y/O PRESION AL JUGADOR, Y DE ESTA MANERA AUMENTAR LA TOLERANCIA AL MISMO, PUESTO QUE EL JUGADOR SE EXPONDRA DE MANERA CONTINUA A UNA ESTIMULACION PROVOCANDO QUE ESTE SE ACOSTUMBRE A DICHA SITUACION."
+align = 3
+valign = 1
+autowrap = true
+
+[node name="Next" type="Button" parent="Papiro"]
+margin_left = -85.3716
+margin_top = 91.3673
+margin_right = 49.6284
+margin_bottom = 142.367
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 42 )
+custom_styles/hover = SubResource( 48 )
+custom_styles/pressed = SubResource( 43 )
+custom_styles/normal = SubResource( 44 )
+text = "Continuar"
+
+[node name="Next2" type="Button" parent="Papiro"]
+visible = false
+margin_left = -85.3716
+margin_top = 91.3673
+margin_right = 49.6284
+margin_bottom = 142.367
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 42 )
+custom_styles/hover = SubResource( 49 )
+custom_styles/pressed = SubResource( 43 )
+custom_styles/normal = SubResource( 44 )
+text = "Continuar"
+
+[node name="Label2" type="Label" parent="Papiro"]
+visible = false
+margin_left = -305.603
+margin_top = -120.742
+margin_right = -208.603
+margin_bottom = -102.742
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 45 )
+text = "Movimiento"
+
+[node name="D" type="Sprite" parent="Papiro/Label2"]
+position = Vector2( 105.402, 71.7205 )
+scale = Vector2( 0.200626, 0.17847 )
+texture = ExtResource( 11 )
+
+[node name="A" type="Sprite" parent="Papiro/Label2"]
+position = Vector2( -28.2787, 72.4834 )
+scale = Vector2( 0.200626, 0.17847 )
+texture = ExtResource( 12 )
+
+[node name="Label3" type="Label" parent="Papiro"]
+visible = false
+margin_left = -292.749
+margin_top = 22.6987
+margin_right = -243.749
+margin_bottom = 37.6987
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 46 )
+text = "Correr"
+
+[node name="Shift-keyboard-key" type="Sprite" parent="Papiro/Label3"]
+position = Vector2( 29.1356, 67.9055 )
+scale = Vector2( 0.473182, 0.243932 )
+texture = ExtResource( 10 )
+
+[node name="Label4" type="Label" parent="Papiro"]
+visible = false
+margin_left = 152.855
+margin_top = -107.009
+margin_right = 223.855
+margin_bottom = -89.0085
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 47 )
+text = "Disparar"
+
+[node name="Left-click" type="Sprite" parent="Papiro/Label4"]
+position = Vector2( 35.1342, 131.996 )
+scale = Vector2( 0.450006, 0.472785 )
+texture = ExtResource( 13 )
+
+[node name="Sonido" type="Sprite" parent="."]
+position = Vector2( 68.875, 46.1172 )
+scale = Vector2( 0.11377, 0.10495 )
+texture = ExtResource( 14 )
+
+[node name="VSlider" type="VSlider" parent="."]
+margin_left = 26.0
+margin_top = 84.0
+margin_right = 111.0
+margin_bottom = 264.0
+custom_styles/grabber_area_highlight = SubResource( 50 )
+custom_styles/grabber_area = SubResource( 51 )
+min_value = -40.0
+max_value = 0.0
+
+[node name="EXNUEVO" type="Button" parent="."]
+visible = false
+margin_left = 711.0
+margin_top = 526.0
+margin_right = 827.0
+margin_bottom = 584.0
+custom_colors/font_color = Color( 0.0392157, 0.301961, 0, 1 )
+custom_colors/font_color_hover = Color( 0.682353, 0.909804, 0.403922, 1 )
+custom_styles/hover = SubResource( 52 )
+custom_styles/normal = SubResource( 53 )
+text = "Extremo"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="EXNUEVO"]
+position = Vector2( -73, 31 )
+rotation = -1.5708
+scale = Vector2( 4.60071, 4.60071 )
+frames = SubResource( 62 )
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="EXNUEVO"]
+position = Vector2( 189, 29 )
+rotation = 1.5708
+scale = Vector2( 4.60071, 4.60071 )
+frames = SubResource( 62 )
+playing = true
+
+[connection signal="pressed" from="Normal" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Infinito" to="." method="_on_Infinito_pressed"]
+[connection signal="pressed" from="Extemo" to="." method="_on_Extemo_pressed"]
+[connection signal="pressed" from="Papiro/Next" to="." method="_on_Next_pressed"]
+[connection signal="pressed" from="Papiro/Next2" to="." method="_on_Next2_pressed"]
+[connection signal="value_changed" from="VSlider" to="." method="_on_VSlider_value_changed"]
+[connection signal="pressed" from="EXNUEVO" to="." method="_on_EXNUEVO_pressed"]

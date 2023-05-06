@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hans-zimmer-interstellar-main-theme-piano-version-sheet-music (mp3cut.net).mp3-3b1e16d0f122caa9e6baca778859adaf.mp3str"
+
+[deps]
+
+source_file="res://Sounds/hans-zimmer-interstellar-main-theme-piano-version-sheet-music (mp3cut.net).mp3"
+dest_files=[ "res://.import/hans-zimmer-interstellar-main-theme-piano-version-sheet-music (mp3cut.net).mp3-3b1e16d0f122caa9e6baca778859adaf.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

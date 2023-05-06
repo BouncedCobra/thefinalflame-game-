@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Fuegocrear.mp3-76f41cb8e60de5f763335ee569cab54d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Fuegocrear.mp3"
+dest_files=[ "res://.import/Fuegocrear.mp3-76f41cb8e60de5f763335ee569cab54d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

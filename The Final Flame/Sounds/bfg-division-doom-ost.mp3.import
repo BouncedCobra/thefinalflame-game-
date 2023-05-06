@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bfg-division-doom-ost.mp3-82e89abeee5e154940cca468a9036d91.mp3str"
+
+[deps]
+
+source_file="res://Sounds/bfg-division-doom-ost.mp3"
+dest_files=[ "res://.import/bfg-division-doom-ost.mp3-82e89abeee5e154940cca468a9036d91.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

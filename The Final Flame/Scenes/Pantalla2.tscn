@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Elementos/free-cartoon-forest-game-backgrounds/PNG/Cartoon_Forest_BG_04/Cartoon_Forest_BG_04.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Player2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/portalAzul.tscn" type="PackedScene" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 517, 44 )
+
+[node name="pantalla2" type="Node2D"]
+
+[node name="CartoonForestBg04" type="Sprite" parent="."]
+position = Vector2( 512, 300 )
+scale = Vector2( 0.533333, 0.555556 )
+texture = ExtResource( 1 )
+
+[node name="Player2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 184 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( 507, 556 )
+shape = SubResource( 1 )
+
+[node name="pAzul" parent="." instance=ExtResource( 3 )]
+position = Vector2( 168, 400 )

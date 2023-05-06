@@ -1,0 +1,18 @@
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\bin\ExportDebug\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\bin\ExportDebug\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.csproj.AssemblyReference.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.AssemblyInfoInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.AssemblyInfo.cs
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.csproj.CoreCompileInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportDebug\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\bin\ExportDebug\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\bin\ExportDebug\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.csproj.AssemblyReference.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.AssemblyInfoInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.AssemblyInfo.cs
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.csproj.CoreCompileInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportDebug\Prueba.pdb

@@ -1,0 +1,18 @@
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\bin\ExportRelease\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\bin\ExportRelease\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.csproj.AssemblyReference.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.AssemblyInfoInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.AssemblyInfo.cs
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.csproj.CoreCompileInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba\.mono\temp\obj\ExportRelease\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\bin\ExportRelease\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\bin\ExportRelease\Prueba.pdb
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.csproj.AssemblyReference.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.AssemblyInfoInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.AssemblyInfo.cs
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.csproj.CoreCompileInputs.cache
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.dll
+D:\My\Escuela\Semestre 5\Desarrollo de videojuegos\pruba - copia\.mono\temp\obj\ExportRelease\Prueba.pdb

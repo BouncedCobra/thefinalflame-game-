@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Elementos/Water-Drop-PNG-Transparent-Image.png" type="Texture" id=1]
+[ext_resource path="res://Scrips/bala.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/Agua dissparo (mp3cut.net).mp3" type="AudioStream" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 140.0
+height = 140.0
+
+[node name="gotaimage" type="Sprite"]
+position = Vector2( -9.53674e-07, -9.53674e-07 )
+scale = Vector2( 0.114286, 0.114286 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+position = Vector2( 7.62939e-06, 35 )
+scale = Vector2( 14, 17.5 )
+
+[node name="impacto" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="impacto"]
+position = Vector2( 8.34465e-06, 0 )
+shape = SubResource( 1 )
+
+[node name="Sonido" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+[connection signal="area_shape_entered" from="impacto" to="." method="_on_impacto_area_shape_entered"]
