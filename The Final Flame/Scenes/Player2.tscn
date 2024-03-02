@@ -209,7 +209,7 @@ position = Vector2( 0, -8 )
 scale = Vector2( 3.29167, 3.16667 )
 frames = SubResource( 12 )
 animation = "Idle"
-frame = 2
+frame = 4
 playing = true
 flip_h = true
 
@@ -234,7 +234,7 @@ valign = 1
 position = Vector2( 568, -504 )
 scale = Vector2( 4.5, 3.58333 )
 frames = SubResource( 24 )
-frame = 5
+frame = 7
 playing = true
 
 [node name="collect2" type="Label" parent="."]

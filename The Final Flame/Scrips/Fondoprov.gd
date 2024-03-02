@@ -1,6 +1,6 @@
 extends Node2D
 
-var enemigo = preload("res://Scenes/Fuego.tscn")
+var enemigo = preload("res://Scenes/Fuego.tscn") # cargar enemigo
 var dest_bullet_rec = preload("res://Scenes/bala.tscn")
 var boss = preload("res://Scenes/boss.tscn")
 var pos = Vector2(0,0)
@@ -84,9 +84,9 @@ func ver():
 	
 	
 func crear_enemigo():
-	enemy_inst = enemigo.instance()
+	enemy_inst = enemigo.instance() #Crear configuracion enemigo
 	enemy_inst.global_position = pos + Vector2(-1000,-1000)
-	add_child(enemy_inst)
+	add_child(enemy_inst) # especificamente este es el que lo crea
 	enemy_inst.owner = self
 	
 	
@@ -115,7 +115,7 @@ func crear_enemigo5():
 	enemy_inst2.owner = self
 
 func _on_Timer_timeout():
-	if (get_node_or_null("Player2")):
+	if (get_node_or_null("Player2")): #timer para que con el tiempo aparecen
 		crear_enemigo()
 
 

@@ -14,7 +14,7 @@ func _physics_process(delta):
 	origen = global_position
 	movimiento()
 	if (get_node_or_null("../../Player2")):
-		global_position += direccion * delta * 500
+		global_position += direccion * delta * 500 #movimiento
 		
 
 func _on_Enemy_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
@@ -33,7 +33,7 @@ func movimiento():
 	if (get_node_or_null("../../Player2")):
 		if (get_node("../../Player2")!=null):
 			pos = get_node("../../Player2").posicion
-			direccion = origen.direction_to(pos)
+			direccion = origen.direction_to(pos) #calculo de direccion
 		else:
 			pos = Vector2(0,0)
 			direccion = origen.direction_to(pos)

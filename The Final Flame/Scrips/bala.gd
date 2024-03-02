@@ -22,7 +22,7 @@ func _process(delta):
 		global_position += dir * delta * 1500
 
 
-func _on_VisibilityNotifier2D_screen_exited():
+func _on_VisibilityNotifier2D_screen_exited(): # para que si sale de la pantalla se elimine
 	queue_free()
 
 
